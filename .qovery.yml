@@ -1,7 +1,7 @@
 ---
 application:
   name: "spatial"
-  project: "xxxxxxxx"
+  project: "azerty"
   organization: "QoveryCommunity"
 routers:
 - name: "main-spatial"
