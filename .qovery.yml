@@ -1,0 +1,15 @@
+---
+application:
+  name: "flask-todo"
+  project: "xxxxxxxx"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "mgdb"
+  version: "4.2"
+routers:
+- name: "main-flask-todo"
+  routes:
+  - application_name: "flask-todo"
+    paths:
+    - "/*"
