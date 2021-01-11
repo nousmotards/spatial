@@ -1,15 +1,11 @@
 ---
 application:
-  name: "flask-todo"
+  name: "spatial"
   project: "xxxxxxxx"
   organization: "QoveryCommunity"
-databases:
-- type: "MONGODB"
-  name: "mgdb"
-  version: "4.2"
 routers:
-- name: "main-flask-todo"
+- name: "main-spatial"
   routes:
-  - application_name: "flask-todo"
+  - application_name: "spatial"
     paths:
     - "/*"
